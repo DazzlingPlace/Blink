@@ -17,8 +17,8 @@ void loop() {
 
 void loop2(){
   digitalWrite(LED_2, 1);
-  delay(2000);
+  delay(500);
   digitalWrite(LED_2, 0);
-  delay(2000);
+  delay(500);
   yield();
 } 
